@@ -15,7 +15,7 @@ matrix:
       dist: bionic
 
 before_install:
-- git clone https://github.com/dlwangyilin/spring-boot.git
+- git clone https://github.com/FasterXML/jackson-core/blob/master/.travis.yml
 - cd primitive-hamcrest  
 - mvn install
 - cd ..
